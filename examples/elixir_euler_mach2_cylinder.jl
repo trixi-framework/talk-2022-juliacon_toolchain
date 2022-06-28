@@ -54,7 +54,7 @@ end
 
 # Create the unstructured quad mesh from the mesh file that
 # was created by the interactive HOHQMesh.jl.
-mesh_file = joinpath(@__DIR__, "out", "box_around_circle.inp")
+mesh_file = joinpath(@__DIR__, "..", "out", "box_around_circle.inp")
 mesh = P4estMesh{2}(mesh_file)
 
 # Boundary names are those we assigned in HOHQMesh.jl

@@ -143,9 +143,9 @@ version = "0.5.1"
 
 [[deps.ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "9489214b993cd42d17f44c36e359bf6a7c919abf"
+git-tree-sha1 = "2dd813e5f2f7eec2d1268c57cf2373d3ee91fcea"
 uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-version = "1.15.0"
+version = "1.15.1"
 
 [[deps.ChangesOfVariables]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Test"]
@@ -224,9 +224,9 @@ uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 
 [[deps.ComponentArrays]]
 deps = ["ArrayInterface", "ChainRulesCore", "LinearAlgebra", "Requires"]
-git-tree-sha1 = "f11d593a21f0772af814b836a0266c0be3652cf7"
+git-tree-sha1 = "7573fc9e81ca1031a1ef80d2dcd1765763068352"
 uuid = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
-version = "0.12.0"
+version = "0.12.2"
 
 [[deps.ConstructionBase]]
 deps = ["LinearAlgebra"]
@@ -1383,9 +1383,9 @@ version = "0.3.2"
 
 [[deps.SciMLBase]]
 deps = ["ArrayInterfaceCore", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "RecipesBase", "RecursiveArrayTools", "StaticArraysCore", "Statistics", "Tables", "TreeViews"]
-git-tree-sha1 = "6a3f7d9b084b508e87d12135de950ac969187954"
+git-tree-sha1 = "ab16d7c73c10362e823a84b733ecb60b3264e187"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.42.0"
+version = "1.42.1"
 
 [[deps.Scratch]]
 deps = ["Dates"]

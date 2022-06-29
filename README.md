@@ -2,6 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hoViWRAhCBE" target="_blank" rel="noopener noreferrer"><img
+    src="https://user-images.githubusercontent.com/25242486/176432903-668ce8bf-4119-4d15-a46e-a1df90944e14.png"
+    width="500px" /></a>
+</p>
+
 This is the companion repository for the [JuliaCon 2022](https://juliacon.org/2022) talk
 
 **From Mesh Generation to Adaptive Simulation: A Journey in Julia**<br>

@@ -10,9 +10,9 @@
 using HOHQMesh, GLMakie
 
 # Create a new HOHQMesh model project. The project name
-# "box_around_circle" will be the name of the mesh file
+# "cylinder_sine_walls" will be the name of the mesh file
 # saved in the directory "out".
-cylinder_flow = newProject("box_around_circle", "out")
+cylinder_flow = newProject("cylinder_sine_walls", "out")
 
 # Reset polynomial order of the mesh model curves and output format.
 # The "ABAQUS" mesh file format is needed for the adaptive mesh

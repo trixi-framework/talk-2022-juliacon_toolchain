@@ -18,7 +18,7 @@ using HOHQMesh, GLMakie
 # Create a new HOHQMesh model project. The project name
 # "box_around_circle" will be the name of the mesh file
 # saved in the directory "out".
-cylinder_flow = newProject("box_around_circle", "out")
+cylinder_flow = newProject("cylinder_sine_walls", "out")
 
 # Reset polynomial order of the mesh model curves and output format.
 # The "ABAQUS" mesh file format is needed for the adaptive mesh
@@ -143,7 +143,7 @@ end
 
 # Create the unstructured quad mesh from the mesh file that
 # was created by the interactive HOHQMesh.jl.
-mesh_file = joinpath(@__DIR__, "..", "out", "box_around_circle.inp")
+mesh_file = joinpath(@__DIR__, "..", "out", "cylinder_sine_walls.inp")
 mesh = P4estMesh{2}(mesh_file)
 
 # Boundary names are those we assigned in HOHQMesh.jl
@@ -180,8 +180,7 @@ semi = SemidiscretizationHyperbolic(mesh, equations, initial_condition_mach2_flo
 
 ###############################################################################
 # Setup an ODE problem
-tspan = (0.0, 0.0) # For testing just initialize everything
-# tspan = (0.0, 2.25)
+tspan = (0.0, 0.0)
 ode = semidiscretize(semi, tspan)
 
 # Callbacks

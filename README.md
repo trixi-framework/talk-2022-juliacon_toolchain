@@ -14,13 +14,13 @@ This is the companion repository for the [JuliaCon 2022](https://juliacon.org/20
 *Andrew R. Winters*<br>
 
 (see abstract [below](#abstract)). Here you can find the presentation slides
-ADD SLIDES AND LINK as well as Julia scripts in the [examples](examples/)
+in [talk.pdf](talk.pdf) as well as Julia scripts in the [examples](examples/)
 directory to locally create results of mesh generation with
 [HOHQMesh.jl](https://github.com/trixi-framework/HOHQMesh.jl)
 and [Trixi.jl](https://github.com/trixi-framework/Trixi.jl) simulations
 presented in the talk.
 
-To reduce the size of the file for the ADD SLIDES AND LINK, the video is not
+To reduce the size of the file for the [talk.pdf](talk.pdf), the video is not
 embedded. Instead, the video `cylinder_flow_sine_walls.mp4` shown in the
 presentation is located in [media](media/).
 

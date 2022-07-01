@@ -91,7 +91,7 @@ semi = SemidiscretizationHyperbolic(mesh, equations, initial_condition_mach2_flo
 
 ###############################################################################
 # Setup an ODE problem
-tspan = (0.0, 2.25)
+tspan = (0.0, 0.0)
 ode = semidiscretize(semi, tspan)
 
 # Callbacks

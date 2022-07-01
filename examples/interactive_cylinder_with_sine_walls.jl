@@ -1,4 +1,4 @@
-# Wobbly box around a cylinder
+# Box around a cylinder with sinusoidal walls
 #
 # Create an outer boundary with two vertical sides and two sinusoidal
 # "wobbly" sides. Inner boundary is a circle with a refinement line

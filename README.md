@@ -21,9 +21,8 @@ and [Trixi.jl](https://github.com/trixi-framework/Trixi.jl) simulations
 presented in the talk.
 
 To reduce the size of the file for the [talk.pdf](talk.pdf), the video is not
-embedded. Instead, the video `cylinder_flow_sine_walls.mp4` shown in the
-presentation is located in [media](media/)
-or it is available [here](https://youtu.be/Q3Pi41gbOkI).
+embedded. Instead, the video shown in the
+presentation is available [here](https://youtu.be/Q3Pi41gbOkI).
 
 
 ## Abstract

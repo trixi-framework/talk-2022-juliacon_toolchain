@@ -28,7 +28,7 @@ presentation is located in [media](media/).
 ## Abstract
 
 We present a Julia toolchain for the adaptive simulation of hyperbolic PDEs
-such as flow equations on complex domains. It begins with HOHQMesh.jl to
+such as flow equations on complex domains. It begins with using HOHQMesh.jl to
 create a curved, unstructured mesh. This mesh is then used in Trixi.jl, a
 numerical simulation framework for conservation laws. We visualize the
 results using Julia’s plotting packages. We highlight select features
@@ -55,7 +55,7 @@ the Julia ecosystem to do just that. In broad strokes the workflow is:
    a numerical simulation framework for conservation laws.
 4. Solution-adaptive refinement of the mesh within Trixi is handled by
    [P4est.jl](https://github.com/trixi-framework/P4est.jl).
-5. After the simulation, a first visualization is made with
+5. After the simulation, interactive visualization can be done using
    [Makie.jl](https://makie.juliaplots.org/stable/).
 6. Solution data can also be exported with
    [Trixi2Vtk.jl](https://github.com/trixi-framework/Trixi2Vtk.jl)
@@ -88,8 +88,8 @@ julia
 ### Installing the required Julia packages
 To run the scripts in the [examples](examples/) directory and allow for
 fully reproducible results, we have used Julia's package manager
-to pin all packages to a fixed release. This ensures that you always have a
-Julia environment in which all the results presented were created.
+to pin all packages to a fixed release. This makes it straightforward to
+reproduce the Julia environment in which all the results presented were created.
 
 If you have not done it yet, clone the repository where this code is stored:
 ```shell
@@ -142,8 +142,8 @@ plot(pd["rho"])
 ## Combined script
 The script `build_mesh_and_run_mach2_cylinder.jl` executes the entire toolchain
 described in the talk. That is, the script generates the mesh, runs the simulation,
-visualizes the final result in Makie, and converts the output files to VTK format
-using Trixi2Vtk and saves them to the `plot_files` directory. Execute this script with
+visualizes the final result in Makie, converts the output files to VTK format
+using Trixi2Vtk, and saves them to the `plot_files` directory. Execute this script with
 ```julia
 include(joinpath("examples", "build_mesh_and_run_mach2_cylinder.jl"))
 ```
@@ -152,7 +152,7 @@ As written, this script sets `tspan = (0.0, 0.0)` on line 183. This can be adjus
 to take a different final time, e.g., the final time for the video in [media](media/)
 is 2.25.
 
-To reproduce the ParaView visualization first open ParaView (after
+To reproduce the ParaView visualization, first open ParaView (after
 [downloading and installing](https://www.paraview.org/download/) it if necessary).
 Then load the ParaView state by clicking
 through `File -> Load State` and open `supersonic_cylinder_state.pvsm.pvsm`.

@@ -73,8 +73,7 @@ programming languages.
 
 ### Installing Julia
 To obtain Julia, go to https://julialang.org/downloads/ and download the latest
-stable release (v1.7.3 as of 2022-06-28; neither use the LTS release nor
-Julia Pro). Then, follow the
+stable release (v1.7.3 as of 2022-06-28). Then, follow the
 [platform-specific instructions](https://julialang.org/downloads/platform/)
 to install Julia on your machine. Note that there is no need to compile anything
 if you are using Linux, MacOS, or Windows.
@@ -148,7 +147,8 @@ using Trixi2Vtk, and saves them to the `plot_files` directory. Execute this scri
 include(joinpath("examples", "build_mesh_and_run_mach2_cylinder.jl"))
 ```
 
-As written, this script sets `tspan = (0.0, 0.0)` on line 183. This can be adjusted
+As written, the script `elixir_euler_mach2_cylinder.jl` sets `tspan = (0.0, 0.0)` on line 94.
+This can be adjusted
 to take a different final time, e.g., the final time for the video in [media](media/)
 is 2.25.
 

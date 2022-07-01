@@ -1,0 +1,9 @@
+[deps]
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+HOHQMesh = "e4f4c7b8-17cb-445a-93c5-f69190ed6c8c"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+Trixi = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"
+Trixi2Vtk = "bc1476a1-1ca6-4cc3-950b-c312b255ff95"
+
+[compat]
+julia = "1.7"

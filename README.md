@@ -23,10 +23,8 @@ presented in the talk.
 To reduce the size of the file for the [talk.pdf](talk.pdf), the video is not
 embedded. Instead, the video `cylinder_flow_sine_walls.mp4` shown in the
 presentation is located in [media](media/)
-or it is available below
-```@raw html
-  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Q3Pi41gbOkI' frameborder='0' allowfullscreen></iframe></div>
-```
+or it is available [here](https://youtu.be/Q3Pi41gbOkI).
+
 
 ## Abstract
 

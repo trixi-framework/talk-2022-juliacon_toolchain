@@ -149,8 +149,7 @@ include(joinpath("examples", "build_mesh_and_run_mach2_cylinder.jl"))
 
 As written, the script `elixir_euler_mach2_cylinder.jl` sets `tspan = (0.0, 0.0)` on line 94.
 This can be adjusted
-to take a different final time, e.g., the final time for the video in [media](media/)
-is 2.25.
+to take a different final time, e.g., the final time for the video is 2.25.
 
 To reproduce the ParaView visualization, first open ParaView (after
 [downloading and installing](https://www.paraview.org/download/) it if necessary).

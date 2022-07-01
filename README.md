@@ -75,8 +75,10 @@ programming languages.
 To obtain Julia, go to https://julialang.org/downloads/ and download the latest
 stable release (v1.7.3 as of 2022-06-28). Then, follow the
 [platform-specific instructions](https://julialang.org/downloads/platform/)
-to install Julia on your machine. Note that there is no need to compile anything
+to install Julia on your machine.
+Note that there is no need to compile anything
 if you are using Linux, MacOS, or Windows.
+Avoid the JuliaPro distribution or the LTS release as Trixi may not work with them.
 
 After the installation, open a terminal and start the Julia *REPL*
 (i.e., the interactive prompt) with

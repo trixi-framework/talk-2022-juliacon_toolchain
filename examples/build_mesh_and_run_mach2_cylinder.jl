@@ -14,7 +14,7 @@ include("interactive_cylinder_with_sine_walls.jl")
 #
 # As written in `elixir_euler_mach2_cylinder.jl`, this only initializes the
 # simulation, i.e., `tspan = (0.0, 0.0)`. To change the final time, edit
-# line 94 of this final, e.g., `tspan = (0.0, 0.5)`.
+# line 94 of this file, e.g., `tspan = (0.0, 0.5)`.
 #
 ###############################################################################
 
@@ -26,7 +26,8 @@ include("elixir_euler_mach2_cylinder.jl")
 ###############################################################################
 #
 # Use Trixi2Vtk to postprocess the Trixi `.h5` solution files and save them
-# in the directory `out`. Can be visualized in external software like ParaView.
+# in the directory `plot_files`. Can be visualized in external software
+# like ParaView.
 #
 ###############################################################################
 

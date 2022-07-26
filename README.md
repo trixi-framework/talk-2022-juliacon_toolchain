@@ -12,6 +12,7 @@ This is the companion repository for the [JuliaCon 2022](https://juliacon.org/20
 
 **From Mesh Generation to Adaptive Simulation: A Journey in Julia**<br>
 *Andrew R. Winters*<br>
+[Recorded talk on YouTube](https://www.youtube.com/watch?v=_N4ozHr-t9E)
 
 (see abstract [below](#abstract)). Here you can find the presentation slides
 in [talk.pdf](talk.pdf) as well as Julia scripts in the [examples](examples/)

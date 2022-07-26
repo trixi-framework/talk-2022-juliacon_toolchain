@@ -1,6 +1,7 @@
 # JuliaCon 2022: From Mesh Generation to Adaptive Simulation: A Journey in Julia
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+[![YouTube](https://img.shields.io/youtube/views/_N4ozHr-t9E?style=social)](https://www.youtube.com/watch?v=_N4ozHr-t9E)
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=hoViWRAhCBE" target="_blank" rel="noopener noreferrer"><img

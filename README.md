@@ -158,7 +158,7 @@ to take a different final time, e.g., the final time for the video is 2.25.
 To reproduce the ParaView visualization, first open ParaView (after
 [downloading and installing](https://www.paraview.org/download/) it if necessary).
 Then load the ParaView state by clicking
-through `File -> Load State` and open `supersonic_cylinder_state.pvsm.pvsm`.
+through `File -> Load State` and open `supersonic_cylinder_state.pvsm`.
 Next, from the prompt "Load State Data File Options" select "Choose File Names",
 navigate to the `plot_files` directory and select the appropriate
 `solution.pvd` and `solution_celldata.pvd` files.
@@ -166,7 +166,7 @@ navigate to the `plot_files` directory and select the appropriate
 
 ## Authors
 This repository was initiated by
-[Andrew Winters](https://liu.se/en/employee/andwi94).
+[Andrew R. Winters](https://liu.se/en/employee/andwi94).
 
 
 ## License
